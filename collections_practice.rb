@@ -25,8 +25,8 @@ end
 
 def find_a(array)
   new_array=[]
-  array.each do |words| words[0] == "a"
-  new_array<<words
+  if array.each do |words| words[0] == "a"
+  return new_array<<words
 end
 end
 end
