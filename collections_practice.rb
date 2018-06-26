@@ -9,4 +9,6 @@ end
 def sort_array_char_count(array)
   array.each do |num|
     num.length
+  array.sort do |num, num2|
+    num <=> num2
 end
