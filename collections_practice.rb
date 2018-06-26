@@ -37,5 +37,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-array.each do |word, array| unless array[2]
+array.each do |word| word + "s"
+  
 end
