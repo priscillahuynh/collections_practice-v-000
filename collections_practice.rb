@@ -28,5 +28,6 @@ def find_a(array)
   if array.each do |words| words[0] == "a"
   return new_array<<words
 end
+  new_array
 end
 end
