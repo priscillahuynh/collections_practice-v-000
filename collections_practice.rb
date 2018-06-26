@@ -26,7 +26,7 @@ end
 def find_a(array)
   new_array=[]
   if array.collect do |words| words[0] == "a"
-  return new_array<<words
+  new_array<<words
 end
   new_array
 end
