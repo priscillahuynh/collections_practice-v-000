@@ -42,5 +42,5 @@ array.each do |word|
     word
   else word + "s"
   end
-  end
+end
 end
